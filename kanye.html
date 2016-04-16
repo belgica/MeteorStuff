@@ -1,0 +1,21 @@
+<head>
+  <title>kanye</title>
+</head>
+
+<body>
+  <h1>Kanye for POTUS!</h1>
+  {{>CommentsIn}}
+  {{>CommentsOut}}
+</body>
+
+<template name="CommentsIn">
+      <form class="new-comment">
+        <input type="text" name="text" placeholder="Why Kanye?" />
+      </form>
+  <button>submit</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="CommentsOut">
+  <p>comments out should go here</p>
+</template>
