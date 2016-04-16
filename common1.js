@@ -1,0 +1,1 @@
+  KanyeComments= new Mongo.Collection("kanyeComments");

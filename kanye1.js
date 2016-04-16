@@ -6,6 +6,7 @@ Template.CommentsIn.events({
   'submit .new-comment'(event) {
     // Prevent default browser form submit
     //When 'submit happens' it will send information about the 'event'. this is the submit event
+    //this is justa new line to see what happens.
     event.preventDefault();
 
     // Get value from form element
@@ -14,8 +15,10 @@ Template.CommentsIn.events({
     //'const' means constant, 'var' = variable
     const target = event.target;
     const text = target.text.value;
+    //so the way this works is, constant target is set to event.target
+    //and then text 
     // Insert a task into the collection
-console.log("this is the event ",event);
+    console.log("this is the event ",event);
     console.log("this is the text object?", target.text.value);
 
    KanyeComments.insert({
